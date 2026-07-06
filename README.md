@@ -1,152 +1,30 @@
-<div align="center">
-
 # 🤖 Claude IT Team
 
-### *Build your dream engineering team—powered by Claude Skills.*
-
-A curated collection of production-ready **Claude Skills** that transform Claude into specialized software engineering experts, architects, reviewers, and technical leaders.
-
-<br/>
-
-![GitHub](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
-![Contributions](https://img.shields.io/badge/Contributions-Welcome-orange?style=for-the-badge)
-![Claude](https://img.shields.io/badge/Built%20for-Claude-purple?style=for-the-badge)
-
-</div>
+A structured, production-grade **Claude Skills engineering organization** that transforms Claude into a full software engineering team.
 
 ---
 
-# 📖 Overview
+## 🧠 Overview
 
-**Claude IT Team** is an open-source collection of reusable **Claude Skills** designed to simulate an entire software engineering organization.
+**Claude IT Team** is a curated collection of modular Claude Skills designed to simulate real-world engineering roles.
 
-Instead of writing lengthy prompts for every task, simply assign the appropriate engineering role and let Claude respond with the mindset, expertise, and best practices of that specialist.
+Each skill represents a specialized expert—from CTO to backend engineers, cloud architects, ML engineers, and domain consultants.
 
-Whether you're building a SaaS platform, microservices, AI systems, cloud infrastructure, or enterprise applications, this repository provides a growing library of domain-specific engineering skills.
+This repository is designed for:
 
----
-
-# 🚀 Why Claude IT Team?
-
-* 🧠 Specialized engineering experts
-* 🏗️ Architecture-first thinking
-* 📐 Industry best practices
-* 🔒 Security-aware development
-* ⚡ Production-ready recommendations
-* 📚 Consistent coding standards
-* 🔄 Reusable across projects
-* 🌍 Open-source and community-driven
+- 🏗️ System design & architecture
+- ⚙️ Backend & frontend engineering
+- ☁️ Cloud & DevOps automation
+- 🤖 AI / ML / LLM engineering
+- 🔐 Security & reliability engineering
+- 📊 Data & analytics systems
+- 🧪 QA, testing & production readiness
 
 ---
 
-# 👥 Engineering Team
+## 📁 Repository Structure
 
-## Leadership
-
-* Principal Engineer
-* Staff Engineer
-* Engineering Manager
-* Solution Architect
-* Enterprise Architect
-* Technical Lead
-
----
-
-## Backend
-
-* FastAPI Architect
-* FastAPI Engineer
-* NestJS Architect
-* NestJS Engineer
-* Django Architect
-* Django Engineer
-* Spring Boot Architect
-* Spring Boot Engineer
-* Node.js Engineer
-* API Designer
-* Database Architect
-* Microservices Architect
-
----
-
-## Frontend
-
-* Next.js Architect
-* Next.js Engineer
-* React Architect
-* React Engineer
-* TypeScript Architect
-* TypeScript Engineer
-* Tailwind CSS Architect
-* UI Engineer
-* Frontend Performance Engineer
-
----
-
-## Cloud & DevOps
-
-* DevOps Engineer
-* Platform Engineer
-* Site Reliability Engineer (SRE)
-* Kubernetes Engineer
-* Docker Expert
-* Azure Architect
-* AWS Architect
-* Terraform Engineer
-* CI/CD Engineer
-
----
-
-## Data & AI
-
-* Machine Learning Engineer
-* Deep Learning Engineer
-* LLM Engineer
-* MLOps Engineer
-* Data Engineer
-* Data Architect
-* Data Scientist
-* AI Research Engineer
-* PyTorch Expert
-
----
-
-## Security
-
-* Security Engineer
-* Application Security Engineer
-* Cloud Security Engineer
-* IAM Architect
-* DevSecOps Engineer
-* Threat Modeling Specialist
-
----
-
-## Quality Engineering
-
-* QA Engineer
-* Test Automation Engineer
-* Performance Engineer
-* Reliability Engineer
-
----
-
-## Product & Design
-
-* Product Manager
-* Technical Writer
-* Documentation Engineer
-* UX Engineer
-* System Designer
-
----
-
-# 📂 Repository Structure
-
-```text
 ```
-```text
 claude-it-team/
 │
 ├── .claude/
@@ -269,113 +147,86 @@ claude-it-team/
 
 ---
 
-# 🛠 What Is a Claude Skill?
+## 🧩 What Are Claude Skills?
 
-A Claude Skill is a reusable instruction set that gives Claude the expertise, behavior, workflow, and decision-making process of a specific professional role.
+Claude Skills are modular instruction sets that define:
 
-Rather than prompting Claude from scratch, you invoke a skill to work with an expert mindset tailored to the task at hand.
+- Role behavior (e.g., CTO, Architect, Engineer)
+- Decision-making framework
+- Coding standards & best practices
+- System design principles
+- Domain expertise
+- Output structure
 
-Examples include:
-
-* Principal Engineer
-* FastAPI Architect
-* Next.js Architect
-* DevOps Engineer
-* Security Engineer
-* Technical Writer
-* Machine Learning Engineer
-* Data Engineer
+They allow Claude to act as a **specialized engineering organization on demand**.
 
 ---
 
-# 🎯 Example Workflow
+## 🏗️ Core Philosophy
 
-```text
-You
- │
- ▼
-Select a Skill
- │
- ▼
-Claude loads the specialist mindset
- │
- ▼
-Architecture + Best Practices
- │
- ▼
-Implementation
- │
- ▼
-Code Review
- │
- ▼
-Documentation
- │
- ▼
-Production-ready Result
-```
+- Production-first engineering
+- Strong architecture boundaries
+- Domain-driven design mindset
+- Security & scalability by default
+- Clear separation of concerns
+- Real-world engineering practices
 
 ---
 
-# 🌟 Design Principles
+## 🚀 Example Usage
 
-Every skill in this repository follows the same philosophy:
+You can invoke skills like:
 
-* First-principles thinking
-* Clean architecture
-* SOLID design
-* Production readiness
-* Scalability
-* Maintainability
-* Security by default
-* Comprehensive documentation
-* Testability
-* Developer experience
+- “Act as a Principal Engineer and review this architecture”
+- “Use FastAPI Architect skill to design this API system”
+- “Use DevOps Engineer skill to design CI/CD pipeline”
+- “Use LLM Engineer skill to optimize inference performance”
 
 ---
 
-# 🤝 Contributing
+## 📊 Engineering Coverage
 
-Contributions are welcome!
+This repository covers:
 
-You can help by:
-
-* Adding new engineering roles
-* Improving existing skills
-* Updating best practices
-* Enhancing documentation
-* Reporting issues
-* Sharing real-world workflows
-
-Every contribution helps make the engineering team smarter.
-
----
-
-# 🗺 Roadmap
-
-* [ ] 100+ Engineering Skills
-* [ ] AI Research Team
-* [ ] Cloud Specialists
-* [ ] Data Engineering Team
-* [ ] Mobile Engineering Team
-* [ ] Security Team
-* [ ] DevOps Team
-* [ ] Prompt Testing Suite
-* [ ] Example Projects
-* [ ] Community Skill Marketplace
+- Executive leadership
+- Software architecture
+- Full-stack engineering
+- Cloud & infrastructure
+- Security engineering
+- AI / ML / LLM systems
+- Data engineering
+- QA & testing
+- Product & delivery management
+- Research & innovation
 
 ---
 
-# 📜 License
+## 🤝 Contribution
 
-Released under the **MIT License**.
+We welcome contributions:
+
+- Add new engineering skills
+- Improve existing SKILL.md definitions
+- Add domain expert/consultant roles
+- Improve architecture patterns
+- Share real-world production practices
 
 ---
 
-<div align="center">
+## 🧠 Future Roadmap
 
-### ⭐ If this project helps you, consider giving it a star.
+- 200+ Claude Skills coverage
+- Domain expert/consultant expansion
+- Multi-agent orchestration workflows
+- Real-world system design playbooks
+- Industry-specific engineering packs
 
-**Build better software with the right Claude Skill.**
+---
 
-</div>
+## 📜 License
+
+MIT License
+
+---
+
+⭐ If you find this useful, give it a star and build your AI engineering team with Claude.
