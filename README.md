@@ -1,232 +1,161 @@
-# 🤖 Claude IT Team
+        .-""""-.
+      .'  ⚙️ ⚙️  '.
+     /   🧠  🧠   \
+    |     🕵️     |
+    |  CLAUDE     |
+    |   SCOUT     |
+     \           /
+      '.       .'
+        '-._.-'
 
-A structured, production-grade **Claude Skills engineering organization** that transforms Claude into a full software engineering team.
+  DISCOVER → BUILD → EVOLVE
 
----
+🕵️‍♂️ claude-scout IT Evolution Engine
+### Autonomous Skill Discovery • Evaluation • Evolution System
 
-## 🧠 Overview
-
-**Claude IT Team** is a curated collection of modular Claude Skills designed to simulate real-world engineering roles.
-
-Each skill represents a specialized expert—from CTO to backend engineers, cloud architects, ML engineers, and domain consultants.
-
-This repository is designed for:
-
-- 🏗️ System design & architecture
-- ⚙️ Backend & frontend engineering
-- ☁️ Cloud & DevOps automation
-- 🤖 AI / ML / LLM engineering
-- 🔐 Security & reliability engineering
-- 📊 Data & analytics systems
-- 🧪 QA, testing & production readiness
+![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)
+![Agentic System](https://img.shields.io/badge/Agentic-System-orange)
+![Skill Evolution](https://img.shields.io/badge/Skill-Evolution-green)
+![Claude Powered](https://img.shields.io/badge/Powered%20by-Claude-black)
 
 ---
 
-## 📁 Repository Structure
+# 🚀 Overview
 
+claude-scout IT Evolution Engine transforms your static IT skill catalog into a living, competitive intelligence system.
+
+Instead of maintaining fixed skill folders like:
+
+frontend/react
+backend/nestjs
+ml/pytorch
+
+You now operate a system where:
+Skills are continuously discovered, tested, and replaced through competition.
+
+Lifecycle:
+Discovery → Build → Evaluation → Battle → Voting → Promotion
+
+---
+
+# 🧬 Core Concept
+
+Every engineering skill is a living module that can:
+- Compete against alternatives
+- Be evaluated objectively
+- Be voted on by multiple expert agents
+- Be replaced if a better version emerges
+
+---
+
+# ⚔️ Skill Evolution Pipeline
+
+## 1. Discovery (Claude Scout Engine)
+Sources:
+- GitHub trending repositories
+- Reddit engineering discussions
+- Research papers
+- Internal registry
+
+Output:
+skill_candidate.json
+
+---
+
+## 2. Build Phase
+Claude generates:
+- Implementation
+- Tests
+- Docs
+- Benchmarks
+
+---
+
+## 3. Evaluation Phase
+
+Metrics:
+- Correctness (25%)
+- Performance (20%)
+- Maintainability (20%)
+- Scalability (20%)
+- Usefulness (15%)
+
+Output:
+evaluation_report.json
+
+---
+
+## 4. Skill Battle System
+New skill vs existing skill:
+Example:
+Old: React State Management v3
+New: Fine-Grained Reactive State System v1
+
+---
+
+## 5. Multi-Agent Voting System
+
+Executive + Engineering + QA + Research + Product agents vote.
+
+Output:
+{
+  "skill_a": 6,
+  "skill_b": 10,
+  "winner": "skill_b"
+}
+
+---
+
+## 6. Skill Replacement Engine
+If new skill wins:
+- Archive old skill
+- Promote new skill
+- Update registry
+
+---
+
+# 🧠 Memory & Plugin System
+
+## Memory Skills
+- architecture-decision-log
+- system-evolution-tracker
+- project-memory-core
+
+## Plugin Skills
+- github-intelligence-plugin
+- reddit-signal-miner
+- code-review-agent
+- architecture-validator
+
+---
+
+# 🏗️ Architecture
+```text
+claude-scout/
+├── scout-engine/
+├── evaluator/
+├── battle-arena/
+├── voting-system/
+├── skill-registry/
+├── memory-core/
+├── plugin-system/
+├── agents/
+└── cli/
 ```
-claude-it-team/
-│
-├── .claude/
-│   └── skills/
-│       │
-│       ├── leadership-principal-engineer/
-│       │   └── SKILL.md
-│       │
-│       ├── leadership-staff-engineer/
-│       │   └── SKILL.md
-│       │
-│       ├── leadership-engineering-manager/
-│       │   └── SKILL.md
-│       │
-│       ├── leadership-solution-architect/
-│       │   └── SKILL.md
-│       │
-│       ├── leadership-enterprise-architect/
-│       │   └── SKILL.md
-│       │
-│       ├── backend-fastapi-architect/
-│       │   └── SKILL.md
-│       │
-│       ├── backend-fastapi-engineer/
-│       │   └── SKILL.md
-│       │
-│       ├── backend-nestjs-architect/
-│       │   └── SKILL.md
-│       │
-│       ├── backend-nestjs-engineer/
-│       │   └── SKILL.md
-│       │
-│       ├── backend-django-architect/
-│       │   └── SKILL.md
-│       │
-│       ├── backend-django-engineer/
-│       │   └── SKILL.md
-│       │
-│       ├── backend-nodejs-engineer/
-│       │   └── SKILL.md
-│       │
-│       ├── frontend-nextjs-architect/
-│       │   └── SKILL.md
-│       │
-│       ├── frontend-nextjs-engineer/
-│       │   └── SKILL.md
-│       │
-│       ├── frontend-react-architect/
-│       │   └── SKILL.md
-│       │
-│       ├── frontend-typescript-architect/
-│       │   └── SKILL.md
-│       │
-│       ├── frontend-tailwindcss-architect/
-│       │   └── SKILL.md
-│       │
-│       ├── cloud-azure-architect/
-│       │   └── SKILL.md
-│       │
-│       ├── cloud-aws-architect/
-│       │   └── SKILL.md
-│       │
-│       ├── cloud-kubernetes-engineer/
-│       │   └── SKILL.md
-│       │
-│       ├── cloud-terraform-engineer/
-│       │   └── SKILL.md
-│       │
-│       ├── devops-engineer/
-│       │   └── SKILL.md
-│       │
-│       ├── sre-engineer/
-│       │   └── SKILL.md
-│       │
-│       ├── security-engineer/
-│       │   └── SKILL.md
-│       │
-│       ├── security-devsecops-engineer/
-│       │   └── SKILL.md
-│       │
-│       ├── ai-machine-learning-engineer/
-│       │   └── SKILL.md
-│       │
-│       ├── ai-deep-learning-engineer/
-│       │   └── SKILL.md
-│       │
-│       ├── ai-llm-engineer/
-│       │   └── SKILL.md
-│       │
-│       ├── ai-mlops-engineer/
-│       │   └── SKILL.md
-│       │
-│       ├── data-engineer/
-│       │   └── SKILL.md
-│       │
-│       ├── qa-engineer/
-│       │   └── SKILL.md
-│       │
-│       ├── technical-writer/
-│       │   └── SKILL.md
-│       │
-│       └── product-manager/
-│           └── SKILL.md
-│
-├── docs/
-│   ├── CONTRIBUTING.md
-│   ├── NAMING-CONVENTIONS.md
-│   ├── SKILL-TEMPLATE.md
-│   └── ROADMAP.md
-│
-├── examples/
-│   ├── backend/
-│   ├── frontend/
-│   ├── cloud/
-│   └── ai/
-│
-├── LICENSE
-└── README.md
-```
+---
+
+# 🔁 Evolution Loop
+DISCOVER → BUILD → EVALUATE → BATTLE → VOTE → EVOLVE
 
 ---
 
-## 🧩 What Are Claude Skills?
-
-Claude Skills are modular instruction sets that define:
-
-- Role behavior (e.g., CTO, Architect, Engineer)
-- Decision-making framework
-- Coding standards & best practices
-- System design principles
-- Domain expertise
-- Output structure
-
-They allow Claude to act as a **specialized engineering organization on demand**.
+# 🎯 Goal
+A self-evolving engineering intelligence ecosystem.
 
 ---
 
-## 🏗️ Core Philosophy
-
-- Production-first engineering
-- Strong architecture boundaries
-- Domain-driven design mindset
-- Security & scalability by default
-- Clear separation of concerns
-- Real-world engineering practices
-
----
-
-## 🚀 Example Usage
-
-You can invoke skills like:
-
-- “Act as a Principal Engineer and review this architecture”
-- “Use FastAPI Architect skill to design this API system”
-- “Use DevOps Engineer skill to design CI/CD pipeline”
-- “Use LLM Engineer skill to optimize inference performance”
-
----
-
-## 📊 Engineering Coverage
-
-This repository covers:
-
-- Executive leadership
-- Software architecture
-- Full-stack engineering
-- Cloud & infrastructure
-- Security engineering
-- AI / ML / LLM systems
-- Data engineering
-- QA & testing
-- Product & delivery management
-- Research & innovation
-
----
-
-## 🤝 Contribution
-
-We welcome contributions:
-
-- Add new engineering skills
-- Improve existing SKILL.md definitions
-- Add domain expert/consultant roles
-- Improve architecture patterns
-- Share real-world production practices
-
----
-
-## 🧠 Future Roadmap
-
-- 200+ Claude Skills coverage
-- Domain expert/consultant expansion
-- Multi-agent orchestration workflows
-- Real-world system design playbooks
-- Industry-specific engineering packs
-
----
-
-## 📜 License
-
-MIT License
-
----
-
-⭐ If you find this useful, give it a star and build your AI engineering team with Claude.
+# ⚡ Quick Start
+git clone https://github.com/yourusername/claude-scout.git
+cd claude-scout
+pip install -r requirements.txt
+python -m claude_scout scout
