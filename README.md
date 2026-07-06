@@ -1,161 +1,347 @@
-        .-""""-.
-      .'  ⚙️ ⚙️  '.
-     /   🧠  🧠   \
-    |     🕵️     |
-    |  CLAUDE     |
-    |   SCOUT     |
-     \           /
-      '.       .'
-        '-._.-'
+# 🤖 Claude IT Team
 
-  DISCOVER → BUILD → EVOLVE
-
-🕵️‍♂️ claude-scout IT Evolution Engine
-### Autonomous Skill Discovery • Evaluation • Evolution System
-
-![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)
-![Agentic System](https://img.shields.io/badge/Agentic-System-orange)
-![Skill Evolution](https://img.shields.io/badge/Skill-Evolution-green)
-![Claude Powered](https://img.shields.io/badge/Powered%20by-Claude-black)
+A structured, production-grade **Claude Skills engineering organization** that transforms Claude into a full software engineering team.
 
 ---
 
-# 🚀 Overview
+## 🧠 Overview
 
-claude-scout IT Evolution Engine transforms your static IT skill catalog into a living, competitive intelligence system.
+**Claude IT Team** is a curated collection of modular Claude Skills designed to simulate real-world engineering roles.
 
-Instead of maintaining fixed skill folders like:
+Each skill represents a specialized expert—from CTO to backend engineers, cloud architects, ML engineers, and domain consultants.
 
-frontend/react
-backend/nestjs
-ml/pytorch
+This repository is designed for:
 
-You now operate a system where:
-Skills are continuously discovered, tested, and replaced through competition.
-
-Lifecycle:
-Discovery → Build → Evaluation → Battle → Voting → Promotion
-
----
-
-# 🧬 Core Concept
-
-Every engineering skill is a living module that can:
-- Compete against alternatives
-- Be evaluated objectively
-- Be voted on by multiple expert agents
-- Be replaced if a better version emerges
+- 🏗️ System design & architecture
+- ⚙️ Backend & frontend engineering
+- ☁️ Cloud & DevOps automation
+- 🤖 AI / ML / LLM engineering
+- 🔐 Security & reliability engineering
+- 📊 Data & analytics systems
+- 🧪 QA, testing & production readiness
 
 ---
 
-# ⚔️ Skill Evolution Pipeline
+## 📁 Repository Structure
 
-## 1. Discovery (Claude Scout Engine)
-Sources:
-- GitHub trending repositories
-- Reddit engineering discussions
-- Research papers
-- Internal registry
-
-Output:
-skill_candidate.json
-
----
-
-## 2. Build Phase
-Claude generates:
-- Implementation
-- Tests
-- Docs
-- Benchmarks
-
----
-
-## 3. Evaluation Phase
-
-Metrics:
-- Correctness (25%)
-- Performance (20%)
-- Maintainability (20%)
-- Scalability (20%)
-- Usefulness (15%)
-
-Output:
-evaluation_report.json
-
----
-
-## 4. Skill Battle System
-New skill vs existing skill:
-Example:
-Old: React State Management v3
-New: Fine-Grained Reactive State System v1
-
----
-
-## 5. Multi-Agent Voting System
-
-Executive + Engineering + QA + Research + Product agents vote.
-
-Output:
-{
-  "skill_a": 6,
-  "skill_b": 10,
-  "winner": "skill_b"
-}
-
----
-
-## 6. Skill Replacement Engine
-If new skill wins:
-- Archive old skill
-- Promote new skill
-- Update registry
-
----
-
-# 🧠 Memory & Plugin System
-
-## Memory Skills
-- architecture-decision-log
-- system-evolution-tracker
-- project-memory-core
-
-## Plugin Skills
-- github-intelligence-plugin
-- reddit-signal-miner
-- code-review-agent
-- architecture-validator
-
----
-
-# 🏗️ Architecture
-```text
-claude-scout/
-├── scout-engine/
-├── evaluator/
-├── battle-arena/
-├── voting-system/
-├── skill-registry/
-├── memory-core/
-├── plugin-system/
-├── agents/
-└── cli/
 ```
+├── .claude/
+│   └── skills/
+│       ├── cto/
+│       │   └── SKILL.md
+│       ├── vp-engineering/
+│       │   └── SKILL.md
+│       ├── engineering-manager/
+│       │   └── SKILL.md
+│       ├── technical-program-manager/
+│       │   └── SKILL.md
+│       ├── enterprise-architect/
+│       │   └── SKILL.md
+│       ├── solution-architect/
+│       │   └── SKILL.md
+│       ├── software-architect/
+│       │   └── SKILL.md
+│       ├── cloud-architect/
+│       │   └── SKILL.md
+│       ├── infrastructure-architect/
+│       │   └── SKILL.md
+│       ├── security-architect/
+│       │   └── SKILL.md
+│       ├── data-architect/
+│       │   └── SKILL.md
+│       ├── ml-architect/
+│       │   └── SKILL.md
+│       ├── integration-architect/
+│       │   └── SKILL.md
+│       ├── saas-architect/
+│       │   └── SKILL.md
+│       ├── system-design/
+│       │   └── SKILL.md
+│
+│       ├── frontend-react/
+│       │   └── SKILL.md
+│       ├── frontend-nextjs/
+│       │   └── SKILL.md
+│       ├── frontend-typescript/
+│       │   └── SKILL.md
+│       ├── frontend-javascript/
+│       │   └── SKILL.md
+│       ├── frontend-tailwindcss/
+│       │   └── SKILL.md
+│       ├── frontend-ui-engineering/
+│       │   └── SKILL.md
+│       ├── frontend-accessibility/
+│       │   └── SKILL.md
+│       ├── frontend-seo/
+│       │   └── SKILL.md
+│       ├── frontend-performance/
+│       │   └── SKILL.md
+│       ├── frontend-state-management/
+│       │   └── SKILL.md
+│
+│       ├── backend-nestjs/
+│       │   └── SKILL.md
+│       ├── backend-fastapi/
+│       │   └── SKILL.md
+│       ├── backend-express/
+│       │   └── SKILL.md
+│       ├── backend-django/
+│       │   └── SKILL.md
+│       ├── backend-spring/
+│       │   └── SKILL.md
+│       ├── backend-dotnet/
+│       │   └── SKILL.md
+│       ├── backend-authentication/
+│       │   └── SKILL.md
+│       ├── backend-authorization/
+│       │   └── SKILL.md
+│       ├── backend-rest-api/
+│       │   └── SKILL.md
+│       ├── backend-graphql/
+│       │   └── SKILL.md
+│       ├── backend-grpc/
+│       │   └── SKILL.md
+│       ├── backend-websocket/
+│       │   └── SKILL.md
+│       ├── backend-microservices/
+│       │   └── SKILL.md
+│       ├── backend-event-driven/
+│       │   └── SKILL.md
+│       ├── backend-background-jobs/
+│       │   └── SKILL.md
+│       ├── backend-caching/
+│       │   └── SKILL.md
+│       ├── backend-performance/
+│       │   └── SKILL.md
+│
+│       ├── database-postgresql/
+│       │   └── SKILL.md
+│       ├── database-mongodb/
+│       │   └── SKILL.md
+│       ├── database-mysql/
+│       │   └── SKILL.md
+│       ├── database-redis/
+│       │   └── SKILL.md
+│       ├── database-elasticsearch/
+│       │   └── SKILL.md
+│       ├── database-prisma/
+│       │   └── SKILL.md
+│       ├── database-indexing/
+│       │   └── SKILL.md
+│       ├── database-migrations/
+│       │   └── SKILL.md
+│       ├── database-replication/
+│       │   └── SKILL.md
+│       ├── database-query-optimization/
+│       │   └── SKILL.md
+│
+│       ├── devops-docker/
+│       │   └── SKILL.md
+│       ├── devops-kubernetes/
+│       │   └── SKILL.md
+│       ├── devops-terraform/
+│       │   └── SKILL.md
+│       ├── devops-github-actions/
+│       │   └── SKILL.md
+│       ├── devops-azure-devops/
+│       │   └── SKILL.md
+│       ├── devops-jenkins/
+│       │   └── SKILL.md
+│       ├── devops-nginx/
+│       │   └── SKILL.md
+│       ├── devops-observability/
+│       │   └── SKILL.md
+│       ├── devops-monitoring/
+│       │   └── SKILL.md
+│       ├── devops-logging/
+│       │   └── SKILL.md
+│       ├── devops-sre/
+│       │   └── SKILL.md
+│
+│       ├── cloud-aws/
+│       │   └── SKILL.md
+│       ├── cloud-azure/
+│       │   └── SKILL.md
+│       ├── cloud-gcp/
+│       │   └── SKILL.md
+│       ├── cloud-networking/
+│       │   └── SKILL.md
+│       ├── cloud-serverless/
+│       │   └── SKILL.md
+│       ├── cloud-iam/
+│       │   └── SKILL.md
+│       ├── cloud-cost-optimization/
+│       │   └── SKILL.md
+│
+│       ├── security-owasp/
+│       │   └── SKILL.md
+│       ├── security-api-security/
+│       │   └── SKILL.md
+│       ├── security-jwt-oauth/
+│       │   └── SKILL.md
+│       ├── security-encryption/
+│       │   └── SKILL.md
+│       ├── security-zero-trust/
+│       │   └── SKILL.md
+│
+│       ├── data-engineering-airflow/
+│       │   └── SKILL.md
+│       ├── data-engineering-spark/
+│       │   └── SKILL.md
+│       ├── data-engineering-kafka/
+│       │   └── SKILL.md
+│       ├── data-engineering-dbt/
+│       │   └── SKILL.md
+│
+│       ├── ml-pytorch/
+│       │   └── SKILL.md
+│       ├── ml-tensorflow/
+│       │   └── SKILL.md
+│       ├── ml-sklearn/
+│       │   └── SKILL.md
+│
+│       ├── llm-transformers/
+│       │   └── SKILL.md
+│       ├── llm-rag/
+│       │   └── SKILL.md
+│       ├── llm-agents/
+│       │   └── SKILL.md
+│       ├── llm-prompt-engineering/
+│       │   └── SKILL.md
+│       ├── llm-serving/
+│       │   └── SKILL.md
+│
+│       ├── mlops-mlflow/
+│       │   └── SKILL.md
+│       ├── mlops-ci-cd/
+│       │   └── SKILL.md
+│       ├── mlops-monitoring/
+│       │   └── SKILL.md
+│
+│       ├── data-science-statistics/
+│       │   └── SKILL.md
+│       ├── data-science-analytics/
+│       │   └── SKILL.md
+│
+│       ├── design-ux/
+│       │   └── SKILL.md
+│       ├── design-ui/
+│       │   └── SKILL.md
+│
+│       ├── product-management/
+│       │   └── SKILL.md
+│       ├── project-management/
+│       │   └── SKILL.md
+│
+│       ├── documentation/
+│       │   └── SKILL.md
+│       ├── research/
+│       │   └── SKILL.md
+│       ├── business-analysis/
+│       │   └── SKILL.md
+│       ├── operations/
+│       │   └── SKILL.md
+│
+│       ├── engineering-best-practices/
+│       │   └── SKILL.md
+│       ├── engineering-code-review/
+│       │   └── SKILL.md
+│       ├── engineering-architecture-review/
+│       │   └── SKILL.md
+│       ├── engineering-performance/
+│       │   └── SKILL.md
+│
+│       └── engineering-leadership/
+│           ├── technical-lead/
+│           │   └── SKILL.md
+│           ├── engineering-manager/
+│           │   └── SKILL.md
+│           └── engineering-auditor/
+│               └── SKILL.md
+```
+
 ---
 
-# 🔁 Evolution Loop
-DISCOVER → BUILD → EVALUATE → BATTLE → VOTE → EVOLVE
+## 🧩 What Are Claude Skills?
+
+Claude Skills are modular instruction sets that define:
+
+- Role behavior (e.g., CTO, Architect, Engineer)
+- Decision-making framework
+- Coding standards & best practices
+- System design principles
+- Domain expertise
+- Output structure
+
+They allow Claude to act as a **specialized engineering organization on demand**.
 
 ---
 
-# 🎯 Goal
-A self-evolving engineering intelligence ecosystem.
+## 🏗️ Core Philosophy
+
+- Production-first engineering
+- Strong architecture boundaries
+- Domain-driven design mindset
+- Security & scalability by default
+- Clear separation of concerns
+- Real-world engineering practices
 
 ---
 
-# ⚡ Quick Start
-git clone https://github.com/yourusername/claude-scout.git
-cd claude-scout
-pip install -r requirements.txt
-python -m claude_scout scout
+## 🚀 Example Usage
+
+You can invoke skills like:
+
+- “Act as a Principal Engineer and review this architecture”
+- “Use FastAPI Architect skill to design this API system”
+- “Use DevOps Engineer skill to design CI/CD pipeline”
+- “Use LLM Engineer skill to optimize inference performance”
+
+---
+
+## 📊 Engineering Coverage
+
+This repository covers:
+
+- Executive leadership
+- Software architecture
+- Full-stack engineering
+- Cloud & infrastructure
+- Security engineering
+- AI / ML / LLM systems
+- Data engineering
+- QA & testing
+- Product & delivery management
+- Research & innovation
+
+---
+
+## 🤝 Contribution
+
+We welcome contributions:
+
+- Add new engineering skills
+- Improve existing SKILL.md definitions
+- Add domain expert/consultant roles
+- Improve architecture patterns
+- Share real-world production practices
+
+---
+
+## 🧠 Future Roadmap
+
+- 200+ Claude Skills coverage
+- Domain expert/consultant expansion
+- Multi-agent orchestration workflows
+- Real-world system design playbooks
+- Industry-specific engineering packs
+
+---
+
+## 📜 License
+
+MIT License
+
+---
+
+⭐ If you find this useful, give it a star and build your AI engineering team with Claude.
